@@ -5,6 +5,7 @@ import { Container } from "./Container";
 import { motion } from "framer-motion";
 import { IconStar, IconStarFilled, IconQuote, IconChevronLeft, IconChevronRight } from "@tabler/icons-react";
 import { GOOGLE_BUSINESS_PROFILE_URL } from "@/constants/urls";
+import { useSwipeable } from "react-swipeable";
 
 // Types for Google Reviews
 interface GoogleReview {
@@ -137,6 +138,14 @@ export function GoogleReviews({ placeId, apiKey }: GoogleReviewsProps) {
     ));
   };
 
+  // Define swipe handlers outside of the conditional rendering
+  const swipeHandlers = useSwipeable({
+    onSwipedLeft: nextReview,
+    onSwipedRight: prevReview,
+    preventScrollOnSwipe: true,
+    trackMouse: false
+  });
+
   return (
     <section className="relative py-16 md:py-24 bg-[var(--primary)] overflow-hidden">
       {/* Background Pattern */}
@@ -209,7 +218,8 @@ export function GoogleReviews({ placeId, apiKey }: GoogleReviewsProps) {
           </div>
         ) : (
           <div className="relative max-w-4xl mx-auto">
-            <div className="overflow-hidden">
+            {/* Apply swipe handlers */}
+            <div className="overflow-hidden" {...swipeHandlers}>
               <div 
                 className="flex transition-transform duration-500 ease-in-out"
                 style={{ transform: `translateX(-${activeIndex * 100}%)` }}
@@ -278,6 +288,13 @@ export function GoogleReviews({ placeId, apiKey }: GoogleReviewsProps) {
               >
                 <IconChevronRight size={24} />
               </button>
+            </div>
+            
+            {/* Mobile swipe indicator - visible only on small screens */}
+            <div className="md:hidden text-center mt-4">
+              <p className="text-white/70 text-sm flex items-center justify-center">
+                <IconChevronLeft size={16} className="mr-1" /> Swipe to navigate <IconChevronRight size={16} className="ml-1" />
+              </p>
             </div>
             
             {/* Dots Indicator - Shown on all devices */}
@@ -352,4 +369,4 @@ export function GoogleReviews({ placeId, apiKey }: GoogleReviewsProps) {
       </Container>
     </section>
   );
-} 
+}
