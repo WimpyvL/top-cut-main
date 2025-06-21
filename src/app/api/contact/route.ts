@@ -10,14 +10,14 @@ export async function POST(req: NextRequest) {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'topcutkuruman@gmail.com',
+        user: 'topcutkuruman@gmail.com', // This should remain as is since it's the sending account
         pass: 'cuad fmkg xazg ovvm', // Use Gmail App Password
       },
     });
 
     const mailOptions = {
       from: `"${name}" <${email}>`, // sender's email
-      to: 'topcutkuruman@gmail.com', // where the form gets sent
+      to: 'jhr@topcuttreefelling.co.za', // where the form gets sent
       replyTo: email,
       subject: `New Contact Form Submission from ${name}`,
       html: `

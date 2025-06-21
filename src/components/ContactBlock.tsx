@@ -81,8 +81,8 @@ export function ContactBlock() {
                   <div>
                     <h3 className="text-white font-bold text-lg">Our Location</h3>
                     <p className="text-green-50">
-                      123 Tree Avenue, Johannesburg<br />
-                      South Africa, 2000
+                      12 Celiers Street, Kuruman<br />
+                      South Africa
                     </p>
                   </div>
                 </motion.div>
@@ -99,10 +99,10 @@ export function ContactBlock() {
                   <div>
                     <h3 className="text-white font-bold text-lg">Email Us</h3>
                     <a 
-                      href="mailto:info@topcut.co.za" 
+                      href="mailto:jhr@topcuttreefelling.co.za" 
                       className="text-green-50 hover:text-white transition-colors"
                     >
-                      info@topcut.co.za
+                      jhr@topcuttreefelling.co.za
                     </a>
                   </div>
                 </motion.div>

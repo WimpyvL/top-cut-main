@@ -4,11 +4,10 @@ import { useEffect, useState } from 'react';
 import { GoogleMap, useJsApiLoader, Marker, InfoWindow } from '@react-google-maps/api';
 import Image from 'next/image';
 
-// Top Cut location (Johannesburg, South Africa coordinates)
-// Replace these with Top Cut's actual coordinates when available
+// Top Cut location (Kuruman, South Africa coordinates)
 const DEFAULT_CENTER = {
-  lat: -26.204103,
-  lng: 28.047305
+  lat: -27.456581,
+  lng: 23.431802
 };
 
 const containerStyle = {
@@ -87,7 +86,7 @@ export function LocationMap() {
           </div>
           <div>
             <h3 className="text-white font-bold">Top Cut Tree Felling</h3>
-            <p className="text-green-100 text-sm">Johannesburg, South Africa</p>
+            <p className="text-green-100 text-sm">12 Celiers Street, Kuruman, South Africa</p>
           </div>
         </div>
       </div>
@@ -130,7 +129,7 @@ export function LocationMap() {
                     />
                     <h4 className="font-bold text-sm">Top Cut Tree Felling</h4>
                   </div>
-                  <p className="text-xs">123 Tree Avenue, Johannesburg</p>
+                  <p className="text-xs">12 Celiers Street, Kuruman, South Africa</p>
                   <p className="text-xs text-[var(--primary)]">Tree Felling & Landscaping</p>
                 </div>
               </InfoWindow>

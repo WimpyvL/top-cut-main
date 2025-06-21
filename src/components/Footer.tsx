@@ -187,8 +187,8 @@ export function Footer() {
                 <IconMail size={20} className="text-[var(--accent)] flex-shrink-0 mt-1" />
                 <div>
                   <p className="text-white font-medium">Email Us</p>
-                  <a href="mailto:info@topcut.co.za" className="text-gray-300 hover:text-white transition-colors">
-                    info@topcut.co.za
+                  <a href="mailto:jhr@topcuttreefelling.co.za" className="text-gray-300 hover:text-white transition-colors">
+                    jhr@topcuttreefelling.co.za
                   </a>
                 </div>
               </li>
@@ -197,7 +197,7 @@ export function Footer() {
                 <div>
                   <p className="text-white font-medium">Our Location</p>
                   <p className="text-gray-300">
-                    Johannesburg, South Africa
+                    12 Celiers Street, Kuruman, South Africa
                   </p>
                 </div>
               </li>
