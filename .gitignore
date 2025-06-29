@@ -107,3 +107,17 @@ temp/
 
 # System files
 Thumbs.db
+
+# Next.js build cache and webpack cache
+.next/cache/**
+.next/static/chunks/**
+.next/static/webpack/**
+
+# Node.js native modules and large binary files
+node_modules/**
+*.node
+
+# Build artifacts
+build/
+dist/
+out/
