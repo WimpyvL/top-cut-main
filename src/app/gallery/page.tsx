@@ -9,9 +9,9 @@ import { motion } from "framer-motion";
 const projects = [
   {
     id: 1,
-    title: "Large Oak Tree Removal",
-    description: "Safe removal of a 100-year-old oak tree in a confined residential space.",
-    category: "Tree Felling",
+    title: "High Risk Tree Felling",
+    description: "Simultaneous removal of multiple high-risk trees in challenging locations.",
+    category: "High Risk Felling",
     imagePath: "/images/gallery/project-1.jpg",
   },
   {
@@ -37,9 +37,9 @@ const projects = [
   },
   {
     id: 5,
-    title: "Multiple Stump Removal",
-    description: "Removal of several tree stumps to prepare for new landscaping.",
-    category: "Stump Removal",
+    title: "Composting",
+    description: "Turning tree and garden waste into nutrient-rich compost for sustainable landscaping.",
+    category: "Eco-Friendly",
     imagePath: "/images/gallery/project-5.jpg",
   },
   {
@@ -88,16 +88,16 @@ const placeholderColors = [
 // Function to get the appropriate image for each project
 const getProjectImage = (index: number): string => {
   switch (index) {
-    case 0: // Large Oak Tree Removal
-      return "/images/LArge tree removal service.png";
+    case 0: // High Risk Tree Felling
+      return "/images/three removal service.png";
     case 1: // Palm Tree Maintenance
       return "/images/Expert tree trimming service.png";
     case 2: // Storm Damage Cleanup
       return "/images/emergency tree saivice.png";
     case 3: // Hedge Trimming
       return "/images/Precision tree trimming service.png";
-    case 4: // Multiple Stump Removal
-      return "/images/stump grinding service.png";
+    case 4: // Composting
+      return "/images/leaf2.png";
     case 5: // Tree Crown Reduction
       return "/images/Expert tree trimming service.png";
     case 6: // Dangerous Tree Removal

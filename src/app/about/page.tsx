@@ -13,7 +13,7 @@ export default function AboutPage() {
             <div className="text-center mb-12">
               <h1 className="text-3xl md:text-4xl font-bold mb-4">About Top Cut Tree Felling</h1>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                A owner-operated business with over 4 years of experience in professional tree services.
+                An owner-operated business proudly serving South Africa since 2021.
               </p>
             </div>
             
@@ -33,17 +33,16 @@ export default function AboutPage() {
               
               <div className="prose prose-lg max-w-none">
                 <p>
-                  Top Cut Tree Felling was founded in 2008 with a simple mission: to provide professional, reliable, and safe tree services to homeowners and businesses throughout South Africa. What started as a small family operation has grown into a trusted name in the industry, but we&apos;ve never lost our commitment to personalized service and quality workmanship.
+                  Top Cut Tree Felling was founded in 2021 by Ryno, a passionate young entrepreneur with a vision to provide professional, reliable, and safe tree services to homeowners and businesses throughout South Africa. Our company may be young, but Ryno and his dedicated team are committed to delivering personalized service and quality workmanship on every project.
                 </p>
-                
                 <p>
-                  As a family-owned business, we take great pride in our work and it shows in everything we do. From the initial consultation to the final cleanup, we approach each project with dedication, expertise, and attention to detail. Our owner is always on-site to ensure that every job meets our high standards.
+                  Ryno leads every project personally, ensuring that each job is completed to the highest standards. From the initial consultation to the final cleanup, you can count on Ryno and his team for dedication, expertise, and attention to detail.
                 </p>
                 
                 <h3>Our Expertise</h3>
                 
                 <p>
-                  With over 4 years of experience in the field, our team has developed specialized knowledge in all aspects of tree care, including:
+                  In just 4 years, our team has developed specialized knowledge in all aspects of tree care, including:
                 </p>
                 
                 <ul>
@@ -88,26 +87,18 @@ export default function AboutPage() {
                     {/* Placeholder for team member image */}
                     <div className="w-full h-full bg-gradient-to-br from-[var(--primary-light)] to-[var(--primary)]"></div>
                   </div>
-                  <h3 className="font-bold text-lg">John Rademeyer</h3>
-                  <p className="text-gray-600">Founder & Lead Arborist</p>
                 </div>
-                
                 <div className="text-center">
                   <div className="w-32 h-32 rounded-full bg-gray-300 mx-auto mb-4 overflow-hidden">
                     {/* Placeholder for team member image */}
                     <div className="w-full h-full bg-gradient-to-br from-[var(--primary-light)] to-[var(--primary)]"></div>
                   </div>
-                  <h3 className="font-bold text-lg">Sarah Rademeyer</h3>
-                  <p className="text-gray-600">Operations Manager</p>
                 </div>
-                
                 <div className="text-center">
                   <div className="w-32 h-32 rounded-full bg-gray-300 mx-auto mb-4 overflow-hidden">
                     {/* Placeholder for team member image */}
                     <div className="w-full h-full bg-gradient-to-br from-[var(--primary-light)] to-[var(--primary)]"></div>
                   </div>
-                  <h3 className="font-bold text-lg">Michael Johnson</h3>
-                  <p className="text-gray-600">Senior Tree Specialist</p>
                 </div>
               </div>
             </div>

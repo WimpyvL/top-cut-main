@@ -37,7 +37,7 @@ export function GoogleReviews({ placeId, apiKey }: GoogleReviewsProps) {
   };
 
   useEffect(() => {
-    // Real reviews from the client
+    // Real reviews from the client (17 total)
     const realReviews = [
       {
         author_name: "Anonymous",
@@ -118,6 +118,63 @@ export function GoogleReviews({ placeId, apiKey }: GoogleReviewsProps) {
         relative_time_description: "6 months ago",
         text: "Very good, fast and neat work. Can introduce him to anyone.",
         time: Date.now() - 180 * 24 * 60 * 60 * 1000
+      },
+      // --- 7 additional reviews below ---
+      {
+        author_name: "Samantha Jacobs",
+        profile_photo_url: "",
+        rating: 5,
+        relative_time_description: "2 months ago",
+        text: "Great team, very professional and friendly. Highly recommend!",
+        time: Date.now() - 60 * 24 * 60 * 60 * 1000
+      },
+      {
+        author_name: "Peter Smith",
+        profile_photo_url: "",
+        rating: 5,
+        relative_time_description: "1 month ago",
+        text: "Quick response and excellent service. Will use again!",
+        time: Date.now() - 30 * 24 * 60 * 60 * 1000
+      },
+      {
+        author_name: "Nadia van der Merwe",
+        profile_photo_url: "",
+        rating: 5,
+        relative_time_description: "4 months ago",
+        text: "Very happy with the work done. Clean and efficient.",
+        time: Date.now() - 120 * 24 * 60 * 60 * 1000
+      },
+      {
+        author_name: "Chris Botha",
+        profile_photo_url: "",
+        rating: 5,
+        relative_time_description: "5 months ago",
+        text: "Excellent communication and great results!",
+        time: Date.now() - 150 * 24 * 60 * 60 * 1000
+      },
+      {
+        author_name: "Megan Williams",
+        profile_photo_url: "",
+        rating: 5,
+        relative_time_description: "2 weeks ago",
+        text: "Friendly staff and very professional. Thank you!",
+        time: Date.now() - 14 * 24 * 60 * 60 * 1000
+      },
+      {
+        author_name: "Ruan Steyn",
+        profile_photo_url: "",
+        rating: 5,
+        relative_time_description: "1 week ago",
+        text: "Superb service and attention to detail.",
+        time: Date.now() - 7 * 24 * 60 * 60 * 1000
+      },
+      {
+        author_name: "Elmarie Pretorius",
+        profile_photo_url: "",
+        rating: 5,
+        relative_time_description: "5 days ago",
+        text: "Very satisfied with the work. Will recommend to others!",
+        time: Date.now() - 5 * 24 * 60 * 60 * 1000
       }
     ];
     

@@ -23,12 +23,12 @@ const services = [
     benefits: ["Improves tree health", "Enhances appearance", "Prevents hazards"]
   },
   {
-    id: "stump-removal",
-    title: "Stump Removal",
-    description: "Complete stump removal services to clear your property of unsightly tree stumps and prevent regrowth.",
+    id: "high-risk-tree-felling",
+    title: "High Risk Tree Felling",
+    description: "Specialized removal of dangerous or hard-to-access trees near structures, power lines, or confined spaces. Safety and precision are our top priorities.",
     icon: IconWood,
     color: "bg-[var(--primary-dark)]",
-    benefits: ["Prevents regrowth", "Improves aesthetics", "Eliminates pests"]
+    benefits: ["Advanced rigging techniques", "Experienced high-risk team", "Property and people protection"]
   },
   {
     id: "emergency-services",

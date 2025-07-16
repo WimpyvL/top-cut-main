@@ -17,7 +17,7 @@ export async function POST(req: NextRequest) {
 
     const mailOptions = {
       from: `"${name}" <${email}>`, // sender's email
-      to: 'jhr@topcuttreefelling.co.za', // where the form gets sent
+      to: 'website@topcuttreefelling.co.za', // where the form gets sent
       replyTo: email,
       subject: `New Contact Form Submission from ${name}`,
       html: `

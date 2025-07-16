@@ -9,7 +9,7 @@ const reasons = [
   {
     icon: IconCertificate,
     title: "Certified Professionals",
-    description: "Our team consists of certified arborists and tree care specialists with years of experience.",
+    description: "Our team consists of certified arborists and tree care specialists with a strong track record since 2021.",
     benefits: ["ISA Certified Arborists", "Ongoing training", "Expert knowledge"]
   },
   {

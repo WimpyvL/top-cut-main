@@ -35,17 +35,17 @@ const services = [
     ]
   },
   {
-    id: "stump-removal",
-    title: "Stump Removal",
-    description: "Complete stump removal services to clear your property of unsightly tree stumps and prevent regrowth. We use specialized equipment to ensure thorough removal.",
+    id: "high-risk-tree-felling",
+    title: "High Risk Tree Felling",
+    description: "Specialized removal of dangerous or hard-to-access trees near structures, power lines, or confined spaces. Our team uses advanced techniques and equipment to ensure safety and precision.",
     icon: IconWood,
     color: "bg-[var(--primary-light)]",
     features: [
-      "Stump grinding",
-      "Root removal",
-      "Site preparation for landscaping",
-      "Multiple stump discounts",
-      "Complete cleanup"
+      "Removal of hazardous trees",
+      "Work near power lines or buildings",
+      "Advanced rigging and climbing",
+      "Confined space removals",
+      "Safety-focused operations"
     ]
   },
   {

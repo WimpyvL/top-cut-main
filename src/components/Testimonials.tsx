@@ -9,39 +9,75 @@ import { GOOGLE_BUSINESS_PROFILE_URL } from "@/constants/urls";
 const testimonials = [
   {
     id: 1,
-    name: "John Smith",
-    location: "Johannesburg",
-    quote: "Top Cut Tree Felling did an amazing job removing a large oak tree from my property. The team was professional, efficient, and left my yard cleaner than when they arrived. Highly recommended!",
+    name: "Pieter van der Merwe",
+    location: "Kuruman",
+    quote: "Baie dankie aan Ryno en sy span! Hulle het vinnig en veilig 'n groot boom naby my huis verwyder. Uitstekende diens!",
     image: "/images/testimonial-1.jpg",
     rating: 5,
-    service: "Tree Removal"
+    service: "Hoë Risiko Boom Veldwerk"
   },
   {
     id: 2,
-    name: "Sarah Johnson",
-    location: "Pretoria",
-    quote: "I&apos;ve used Top Cut for tree trimming services multiple times, and they never disappoint. Their attention to detail and knowledge about tree care is impressive. The owner is always on-site to ensure quality work.",
+    name: "Annelie Botha",
+    location: "Kathu",
+    quote: "Ek is so tevrede met die netjiese snoeiwerk. Die span was vriendelik en professioneel. Sal hulle beslis aanbeveel!",
     image: "/images/testimonial-2.jpg",
     rating: 5,
-    service: "Tree Trimming"
+    service: "Boom Snoei"
   },
   {
     id: 3,
-    name: "Michael Brown",
-    location: "Cape Town",
-    quote: "After a storm damaged several trees on my property, Top Cut came to the rescue with their emergency services. They responded quickly, worked safely, and their prices were very reasonable.",
+    name: "Jaco Steyn",
+    location: "Kimberley",
+    quote: "Na 'n storm het Top Cut vinnig gereageer en die gevalle bome veilig verwyder. Baie dankie vir julle puik diens!",
     image: "/images/testimonial-3.jpg",
     rating: 5,
-    service: "Emergency Services"
+    service: "Nooddiens"
   },
   {
     id: 4,
-    name: "Emily Davis",
-    location: "Durban",
-    quote: "The team at Top Cut Tree Felling are true professionals. They removed a difficult tree that was dangerously close to my house with precision and care. I couldn&apos;t be happier with their service.",
+    name: "Marlene du Plessis",
+    location: "Kuruman",
+    quote: "Ryno en sy manne het my ou palmboom perfek gesnoei. Hulle het alles mooi skoon agtergelaat. Baie professioneel!",
     image: "/images/testimonial-4.jpg",
     rating: 5,
-    service: "Tree Felling"
+    service: "Palmboom Versorging"
+  },
+  {
+    id: 5,
+    name: "Francois Smit",
+    location: "Kathu",
+    quote: "Ek het Top Cut gebruik vir 'n moeilike boomverwydering. Hulle het alles veilig en vinnig gedoen. Baie dankie!",
+    image: "/images/testimonial-5.jpg",
+    rating: 5,
+    service: "Boomverwydering"
+  },
+  {
+    id: 6,
+    name: "Lize van Wyk",
+    location: "Kimberley",
+    quote: "Puik diens en vriendelike span. My tuin lyk nou fantasties!",
+    image: "/images/testimonial-6.jpg",
+    rating: 5,
+    service: "Tuinonderhoud"
+  },
+  {
+    id: 7,
+    name: "Gert Pretorius",
+    location: "Kuruman",
+    quote: "Hulle het vinnig gereageer toe ek 'n noodgeval gehad het. Sal hulle beslis weer gebruik!",
+    image: "/images/testimonial-7.jpg",
+    rating: 5,
+    service: "Nooddiens"
+  },
+  {
+    id: 8,
+    name: "Sonja Jacobs",
+    location: "Kathu",
+    quote: "Baie professioneel en netjies gewerk. Ek beveel Top Cut aan vir enige boomwerk!",
+    image: "/images/testimonial-8.jpg",
+    rating: 5,
+    service: "Boomwerk"
   },
 ];
 
